@@ -10,15 +10,15 @@ const Home = () => {
 
       </header>
 
-            <div className="container pt-4">
+            <div className="container justify-content-center pt-4">
                 <div className="row">
-                    <div className="col-6 col-lg-3 text-center">
+                    <div className="col-12 col-md-6 col-lg-3 text-center">
                         <Link to="/carcassonne" className="gamesTitle">
                             <img src="images/carcassonne/carcassonne.jpg"></img>
                             <h3>Carcassonne</h3>
                             </Link>
                     </div>
-                    <div className="col-6 col-lg-3 text-center">
+                    <div className="col-12 col-md-6 col-lg-3 text-center">
                         <Link to="/cacao" className="gamesTitle">
                             <img src="images/cacao/cacao.jpg"></img>
                             <h3>Cacao</h3>

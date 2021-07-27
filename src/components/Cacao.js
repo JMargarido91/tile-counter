@@ -11,9 +11,9 @@ const Carcassonne = () => {
     return (
         <div className="container">
         <h1 className="text-center py-4 py-sm-1">Cacao Tile Counter</h1>
-        <div className="container m-auto">
+        <div className="container ps-0">
 
-            <div className="row justify-content-md-center pt-4">
+            <div className="row justify-content-center pt-4">
 
                 <Tile image="images/cacao/cacao1.png" total="3" counter={counterJungle} setCounter={setCounterJungle}/>
                 <Tile image="images/cacao/cacao2.png" total="2" counter={counterJungle} setCounter={setCounterJungle}/>

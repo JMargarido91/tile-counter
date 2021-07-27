@@ -9,9 +9,9 @@ const Carcassonne = () => {
     return (
         <div className="container">
         <h1 className="text-center py-4 py-sm-1">Carcassonne Tile Counter</h1>
-        <div className="container m-auto">
+        <div className="container ps-0">
 
-            <div className="row justify-content-md-center pt-4">
+            <div className="row justify-content-center pt-4">
 
                 <Tile image="images/carcassonne/road2ns.png" total="8" counter={counter} setCounter={setCounter}/>
                 <Tile image="images/carcassonne/road2sw.png" total="9" counter={counter} setCounter={setCounter}/>
