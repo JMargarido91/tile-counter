@@ -28,6 +28,32 @@
   color: #61dafb;
 }
 
+.page-container {
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.imageOpacity {
+  opacity: 0.25;
+}
+
+.gamesTitle {
+  text-decoration: none;
+  color: black
+}
+
+.gamesTitle:hover {
+  font-weight: bold;
+  color: seagreen
+}
+
+.return {
+  text-decoration: none;
+  color: black
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
